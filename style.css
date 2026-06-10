@@ -144,7 +144,6 @@ p {
 
 section p {
   text-align: justify;
-  hyphens: auto;
 }
 
 @media (max-width: 700px) {
