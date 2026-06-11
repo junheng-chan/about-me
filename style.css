@@ -82,10 +82,21 @@ h1 {
 }
 
 .role {
-  margin: 14px 0 0;
   color: var(--muted);
-  font-weight: 560;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.institution {
+  display: block;
+  white-space: nowrap;
+}
+
+@media (max-width: 430px) {
+  .institution {
+    font-size: 0.9rem;
+    letter-spacing: -0.01em;
+  }
 }
 
 a {
@@ -299,6 +310,10 @@ li + li {
   .links a {
     padding: 7px 11px;
     font-size: 0.9rem;
+  }
+
+  .email-link {
+  user-select: text;
   }
 
   .cards {
