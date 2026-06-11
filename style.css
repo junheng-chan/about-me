@@ -177,6 +177,11 @@ h2 {
 
 p {
   margin: 0;
+  line-height: 1.6;
+}
+
+section p {
+  text-align: justify;
 }
 
 summary {
