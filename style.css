@@ -45,6 +45,12 @@ body {
   align-items: center;
 }
 
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
 .profile-photo {
   width: 172px;
   height: 172px;
@@ -75,19 +81,19 @@ body {
 
 h1 {
   margin: 0;
-  font-size: clamp(3.2rem, 10vw, 6.8rem);
-  line-height: 1;
-  margin: 0 0 0.35rem;
+  font-size: clamp(2.8rem, 6.3vw, 4.7rem);
+  line-height: 1.05;
   letter-spacing: -0.052em;
   white-space: nowrap;
 }
 
 .role {
+  margin: 0;
   color: var(--muted);
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 0.98rem;
+  font-weight: 560;
   text-align: center;
-  line-height: 1.45;
+  line-height: 1.4;
 }
 
 .institution {
