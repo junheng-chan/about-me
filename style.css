@@ -93,7 +93,15 @@ h1 {
   white-space: normal;
 }
 
+.desktop-comma {
+  display: inline;
+}
+
 @media (max-width: 700px) {
+  .desktop-comma {
+    display: none;
+  }
+
   .institution {
     display: block;
     white-space: nowrap;
