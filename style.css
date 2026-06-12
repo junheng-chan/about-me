@@ -414,9 +414,9 @@ li + li {
 
 .phd-note {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   line-height: 1.55;
-  font-weight: 500;
-  margin-top: 0.65rem;
-  text-align: left;
+  font-weight: 450;
+  margin-top: 0.75rem;
+  text-align: justify;
 }
